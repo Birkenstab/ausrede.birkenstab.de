@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+  line-height: 100vh;
+  margin: 0;
+}
