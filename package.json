@@ -1,7 +1,26 @@
 {
   "name": "ausrede.birkenstab.de",
   "version": "0.1.0",
-  "private": true,
+  "description": "Ausreden-Generator",
+  "keywords": [
+    "ausrede",
+    "generator",
+    "lel",
+    "deutsch",
+    "ausreden",
+    "docker-image",
+    "website"
+  ],
+  "homepage": "https://ausrede.birkenstab.de",
+  "bugs": {
+    "url": "https://github.com/Birkenstab/ausrede.birkenstab.de/issues",
+    "email": "ausrede.birkenstab.de-bugs@birkenstab.de"
+  },
+  "license": "MIT",
+  "repository": "github:Birkenstab/ausrede.birkenstab.de",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
   "scripts": {
     "start": "node ./bin/www | pino"
   },
