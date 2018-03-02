@@ -14,6 +14,11 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * 330 einzigartige Ausreden
 * Platformunabhängig
 
+## Docker
+`docker run -p 3000:3000 birkenstab/ausrede.birkenstab.de`
+
+Docker-Hub: [hub.docker.com/r/birkenstab/ausrede.birkenstab.de/](https://hub.docker.com/r/birkenstab/ausrede.birkenstab.de/)
+
 ## Performance
 * Ultra schnelle Performance
 * Durchschnittliche Generierungsdauer: < 0.5 ms
