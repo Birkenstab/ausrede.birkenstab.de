@@ -1,11 +1,19 @@
 body {
-  margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div {
+    line-height: 100vh;
+    height: 100vh;
+    text-align: center;
 }
 
 h1 {
-  font-size: 3vw;
-  text-align: center;
-  line-height: 100vh;
-  margin: 0;
+    display: inline-block;
+    font-size: 3vw;
+    text-align: center;
+    line-height: initial;
+    margin: 0;
+    vertical-align: middle;
 }
