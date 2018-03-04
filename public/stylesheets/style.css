@@ -14,8 +14,8 @@ h1 {
     font-size: 3vw;
     text-align: center;
     line-height: initial;
-    margin: 0;
     vertical-align: middle;
+    margin: 0 20px;
 }
 
 /* Github corner */
