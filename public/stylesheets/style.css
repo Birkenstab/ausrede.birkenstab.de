@@ -4,7 +4,7 @@ body {
 }
 
 div {
-    line-height: 100vh;
+    line-height: calc(100vh - 17px);
     height: 100vh;
     text-align: center;
 }
@@ -16,6 +16,16 @@ h1 {
     line-height: initial;
     vertical-align: middle;
     margin: 0 20px;
+}
+
+p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: #555555;
+    font-size: 12px;
 }
 
 /* Github corner */
