@@ -3,7 +3,12 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-div {
+a {
+    color: #3355ff;
+    text-decoration: none;
+}
+
+.excuse {
     line-height: calc(100vh - 17px);
     height: 100vh;
     text-align: center;
@@ -18,7 +23,7 @@ h1 {
     margin: 0 20px;
 }
 
-p {
+footer {
     position: absolute;
     left: 0;
     right: 0;
@@ -26,6 +31,11 @@ p {
     text-align: center;
     color: #555555;
     font-size: 12px;
+}
+
+.tweet {
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Github corner */
