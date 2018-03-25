@@ -11,7 +11,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Universell einsetzbar
 * Responsive design
 * Kinderleichte Bedienung
-* 598 einzigartige Ausreden
+* 630 einzigartige Ausreden
 * Platformunabhängig
 
 ## Docker
@@ -50,4 +50,3 @@ Die Regeln für die Ausreden befinden sich in `lib/excuses.js`
 
 ## Roadmap
 * 1000 einzigartige Ausreden erreichen
-* Teilen-Knopf für Twitter
