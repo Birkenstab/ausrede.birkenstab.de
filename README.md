@@ -12,7 +12,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Responsive design
 * Kinderleichte Bedienung
 * 845 einzigartige Ausreden
-* Platformunabhängig
+* Plattformunabhängig
 
 ## Docker
 `docker run -p 3000:3000 birkenstab/ausrede.birkenstab.de`
