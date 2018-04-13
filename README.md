@@ -23,7 +23,7 @@ Docker-Hub: [hub.docker.com/r/birkenstab/ausrede.birkenstab.de/](https://hub.doc
 * Ultra schnelle Performance
 * Durchschnittliche Generierungsdauer: < 0.5 ms
 * Durchschnittliche HTTP-Antwortzeit: < 4.0 ms
-* wrk benchmarking results:
+* wrk Benchmarking Ergebnisse:
     ```
     wrk -c 1 -d 30s -t 1 --latency http://localhost:3000
     Running 30s test @ http://localhost:3000
