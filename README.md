@@ -11,7 +11,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Universell einsetzbar
 * Responsive design
 * Kinderleichte Bedienung
-* 895 einzigartige Ausreden
+* 924 einzigartige Ausreden
 * Plattformunabhängig
 
 ## Docker
