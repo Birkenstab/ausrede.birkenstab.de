@@ -13,6 +13,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Kinderleichte Bedienung
 * 1021 einzigartige Ausreden
 * Plattformunabhängig
+* Curl-Support: `curl ausrede.birkenstab.de`
 
 ## Docker
 `docker run -p 3000:3000 birkenstab/ausrede.birkenstab.de`
