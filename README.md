@@ -11,7 +11,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Universell einsetzbar
 * Responsive design
 * Kinderleichte Bedienung
-* 956 einzigartige Ausreden
+* 1021 einzigartige Ausreden
 * Plattformunabhängig
 
 ## Docker
@@ -49,4 +49,4 @@ Dann hilf mit die Vielfalt von [ausrede.birkenstab.de](https://ausrede.birkensta
 Die Regeln für die Ausreden befinden sich in `lib/excuses.js`
 
 ## Roadmap
-* 1000 einzigartige Ausreden erreichen
+* Mehr einzigartige Ausreden!?
