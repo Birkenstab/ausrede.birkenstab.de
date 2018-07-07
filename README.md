@@ -11,7 +11,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Universell einsetzbar
 * Responsive design
 * Kinderleichte Bedienung
-* 1131 einzigartige Ausreden
+* 1189 einzigartige Ausreden
 * Plattformunabhängig
 * Curl-Support: `curl ausrede.birkenstab.de`
 
