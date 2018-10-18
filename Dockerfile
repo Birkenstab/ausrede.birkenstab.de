@@ -1,4 +1,4 @@
-FROM node:carbon-alpine
+FROM node:10-alpine
 
 RUN adduser -S nodejs
 
@@ -16,5 +16,7 @@ RUN npm install --production
 COPY . .
 
 EXPOSE 3000
+
+ENV NODE_ENV production
 
 CMD ["/usr/local/bin/dumb-init", "npm", "start"]
