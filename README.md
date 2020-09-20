@@ -9,7 +9,7 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 * Zufällig generierte Ausreden
 * Ultra schnell 
 * Universell einsetzbar
-* Responsive design
+* Responsive Design
 * Kinderleichte Bedienung
 * 1517 einzigartige Ausreden
 * Plattformunabhängig
