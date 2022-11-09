@@ -22,4 +22,4 @@ jobs:
     - name: Build the Docker image
       run: ./build.sh
     - name: Docker Push
-      run: docker push birkenstab/ausrede.birkenstab.de
+      run: docker push -a birkenstab/ausrede.birkenstab.de
