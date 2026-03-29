@@ -1,6 +1,6 @@
 {
   "name": "ausrede.birkenstab.de",
-  "version": "0.30.0",
+  "version": "0.31.0",
   "description": "Ausreden-Generator",
   "keywords": [
     "ausrede",
@@ -29,5 +29,10 @@
     "express-pino-logger": "^3.0.1",
     "hbs": "^4.2.0",
     "pino": "^4.17.3"
+  },
+  "overrides": {
+    "hbs": {
+      "handlebars": "4.7.9"
+    }
   }
 }
