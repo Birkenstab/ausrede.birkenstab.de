@@ -1,7 +1,7 @@
 const express = require("express")
 const path = require("path")
 const logger = require("pino")()
-const pinoExpress = require("express-pino-logger")({
+const pinoHttp = require("pino-http")({
     logger
 })
 
@@ -12,7 +12,7 @@ const app = express()
 app.set("views", path.join(__dirname, "views"))
 app.set("view engine", "hbs")
 
-app.use(pinoExpress)
+app.use(pinoHttp)
 app.use(express.static(path.join(__dirname, "public")))
 
 app.use("/", index)
