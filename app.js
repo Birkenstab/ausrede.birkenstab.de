@@ -1,6 +1,7 @@
 const express = require("express")
 const path = require("path")
 const logger = require("pino")()
+const helmet = require("helmet")
 const pinoHttp = require("pino-http")({
     logger
 })
@@ -12,7 +13,10 @@ const app = express()
 app.set("views", path.join(__dirname, "views"))
 app.set("view engine", "hbs")
 
+app.disable("x-powered-by")
+
 app.use(pinoHttp)
+app.use(helmet())
 app.use(express.static(path.join(__dirname, "public")))
 
 app.use("/", index)
