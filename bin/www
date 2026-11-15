@@ -30,6 +30,18 @@ server.on("error", onError)
 server.on("listening", onListening)
 
 /**
+ * Shut down gracefully. Node runs as PID 1 in the container, where signals
+ * without an explicit handler are ignored.
+ */
+
+for (const signal of ["SIGTERM", "SIGINT"]) {
+    process.on(signal, () => {
+        logger.info("Received " + signal + ", shutting down")
+        server.close(() => process.exit(0))
+    })
+}
+
+/**
  * Normalize a port into a number, string, or false.
  */
 

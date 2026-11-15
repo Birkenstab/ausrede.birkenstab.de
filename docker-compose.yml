@@ -1,0 +1,16 @@
+services:
+  ausrede:
+    image: birkenstab/ausrede.birkenstab.de:latest
+    restart: unless-stopped
+    ports:
+      # Only reachable from the host itself, e.g. for a reverse proxy
+      - "127.0.0.1:3000:3000"
+    user: "65532:65532"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 64
+    mem_limit: 128m
+    cpus: 0.5

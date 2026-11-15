@@ -18,6 +18,8 @@ Du willst den Abwasch nicht machen, bist aber zu faul Dir eine Ausrede zu überl
 ## Docker
 `docker run -p 3000:3000 birkenstab/ausrede.birkenstab.de`
 
+Oder gehärtet (read-only, ohne Capabilities, mit Ressourcenlimits) per Compose: `docker compose up -d`, siehe `docker-compose.yml`
+
 Docker-Hub: [hub.docker.com/r/birkenstab/ausrede.birkenstab.de/](https://hub.docker.com/r/birkenstab/ausrede.birkenstab.de/)
 
 ## Performance
