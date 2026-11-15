@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ "master" ]
 
+permissions:
+  contents: read
+
 jobs:
 
   build:
@@ -15,6 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Log in to Docker Hub
+      if: github.event_name == 'push'
       uses: docker/login-action@v3
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
@@ -22,4 +26,5 @@ jobs:
     - name: Build the Docker image
       run: ./build.sh
     - name: Docker Push
+      if: github.event_name == 'push'
       run: docker push -a birkenstab/ausrede.birkenstab.de
