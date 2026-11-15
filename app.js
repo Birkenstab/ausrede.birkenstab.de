@@ -26,12 +26,18 @@ app.use(function (req, res, next) {
 
 // error handler
 app.use(function (err, req, res, next) {
-    // set locals, only providing error in development
-    res.locals.message = err.message
-    res.locals.error = req.app.get("env") === "development" ? err : {}
+    const isDevelopment = req.app.get("env") === "development"
+    const status = err.status || 500
+
+    if (status >= 500)
+        req.log.error(err)
+
+    // set locals, only providing error details in development
+    res.locals.message = status >= 500 && !isDevelopment ? "Internal Server Error" : err.message
+    res.locals.error = isDevelopment ? err : {}
 
     // render the error page
-    res.status(err.status || 500)
+    res.status(status)
     res.render("error")
 })
 
